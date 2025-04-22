@@ -1,19 +1,42 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Instagram Mock
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This is a custom-built Instagram-style post feed developed from scratch using **HTML**, **CSS**, and **JavaScript**. While the project idea was inspired by Scrimba’s Frontend Developer Career Path, the entire design and codebase were independently created to practice responsive layout and frontend development skills.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## ✨ Overview
 
-Happy Coding!
+Live Demo: [https://astounding-dolphin-1be4e5.netlify.app/](https://astounding-dolphin-1be4e5.netlify.app/)
+
+This project showcases a clean, mobile-first design that mimics an Instagram feed. It includes:
+
+- A header with logo and navigation icons
+- A responsive feed layout displaying user posts
+- Interactive elements for user engagement
+
+## ⚙️ How It Works
+
+- Each post is dynamically rendered using a hardcoded list of user data in the JavaScript file.
+- The layout uses **Flexbox** to stack post elements vertically with spacing and responsiveness.
+- Interaction buttons (like, comment, share) are present for UI practice, and can be expanded with functionality later.
+- JavaScript handles rendering post elements into the DOM using basic iteration over the post data.
+
+## 🛠️ Personalization
+
+Although the initial concept was provided by Scrimba, the following customizations were implemented:
+
+- Built the layout and styling from scratch
+- Customized content and icon layout
+- Structured the JavaScript logic to loop through post data and generate UI elements dynamically
+
+## 🚧 Planned Updates
+
+- Expand layout for better desktop responsiveness
+- Add like/comment functionality
+- Enhance visual effects with animations
+
+## 🗂️ File Structure (basic)
+
+- `index.html` – Main structure of the page
+- `index.css` – Styling for layout and design
+- `index.js` – JavaScript for rendering post content and interactions
